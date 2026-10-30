@@ -13,7 +13,7 @@ public class Ejercicio07 {
     public static void main(String[] args) {
         //AQUÍ AGREGUE TODO SU CÓDIGO...
         Scanner tcl = new Scanner(System.in);
-        double kv_precio, kv_consumido, total,total_descuento;
+        double kv_precio, kv_consumido, total;
         double descuento = 0.10;
         int edad;
         System.out.println("Ingrese el valor del kilovatio/hora: ");
@@ -24,12 +24,11 @@ public class Ejercicio07 {
         edad = tcl.nextInt();
         if (edad >= 65){
             total= kv_precio * kv_consumido;
-            total_descuento= total * descuento;
-            total_descuento = total - total_descuento;
-            System.out.println("El total a pagar con descuento es: "+total);}
+            total= total -(total * descuento);
+            System.out.println("El total a pagar con descuento del 10% es: "+total);}
         else{
             total= kv_precio * kv_consumido;
-            System.out.println("El total a pagar es: "+total);
+            System.out.println("El total a pagar es: "+ total);
         }
     }
 }
@@ -37,4 +36,15 @@ public class Ejercicio07 {
 /***
  * EVIDENCIA DEL RUN:
  * Pegue aquí la evidencia de la ejecución del .java
+ * run:
+Ingrese el valor del kilovatio/hora: 
+0,15
+Ingrese el numero de kilovatios consumidos en el mes:
+90
+Ingrese su edad:
+80
+El total a pagar con descuento es: 12.15
+BUILD SUCCESSFUL (total time: 5 seconds)
+
+
  */

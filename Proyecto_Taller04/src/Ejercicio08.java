@@ -12,7 +12,7 @@ public class Ejercicio08 {
     public static void main(String[] args) {
         //AQUÍ AGREGUE TODO SU CÓDIGO...
         Scanner tcl = new Scanner(System.in);
-        double netflix, youtube, dropbox, spotify, total, descuento, total_descuento;
+        double netflix, youtube, dropbox, spotify, total, descuento;
         descuento = 0.20;
         int edad;
         System.out.println("Ingrese el pago de netflix: ");
@@ -27,18 +27,29 @@ public class Ejercicio08 {
         edad = tcl.nextInt();
         if (edad<30){
             total = netflix + youtube + dropbox + spotify;
-            total_descuento = total * descuento;
-            total_descuento = total - total_descuento;
-            System.out.println("El total con el 20% de descuento es: "+total_descuento);
+            total = total - (total * descuento);
+            System.out.println("El total con el 20% de descuento es: "+total);
         }
         else{
             total = netflix + youtube + dropbox + spotify;
-            System.out.println("El total con el 20% de descuento es: "+total);
+            System.out.println("El total a pagar es: "+total);
         }
     }
 }
-
 /***
  * EVIDENCIA DEL RUN:
  * Pegue aquí la evidencia de la ejecución del .java
+ *run:
+Ingrese el pago de netflix: 
+20
+Ingrese el pago de Youtube Premium: 
+20
+Ingrese el pago de Dropbox: 
+20
+Ingrese el pago de spotify: 
+20
+Ingrese su edad: 
+20
+El total con el 20% de descuento es: 64.0
+BUILD SUCCESSFUL (total time: 4 seconds)
  */
