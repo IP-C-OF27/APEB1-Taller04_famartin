@@ -30,5 +30,5 @@ Ingrese la base del triangulo:
 20
 El area del triangulo es: 100.0
 BUILD SUCCESSFUL (total time: 4 seconds)
-
+* 
  */

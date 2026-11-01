@@ -16,17 +16,17 @@ public class Ejercicio03 {
         numero = tcl.nextInt();
         if (numero>=2 && numero<=6){
             System.out.println(numero + " x 1 = " + (numero * 1));
-            System.out.println(numero + " x 1 = " + (numero * 2));
-            System.out.println(numero + " x 1 = " + (numero * 3));
-            System.out.println(numero + " x 1 = " + (numero * 4));
-            System.out.println(numero + " x 1 = " + (numero * 5));
-            System.out.println(numero + " x 1 = " + (numero * 6));
-            System.out.println(numero + " x 1 = " + (numero * 7));
-            System.out.println(numero + " x 1 = " + (numero * 8));
-            System.out.println(numero + " x 1 = " + (numero * 9));
-            System.out.println(numero + " x 1 = " + (numero * 10));
-            System.out.println(numero + " x 1 = " + (numero * 11));
-            System.out.println(numero + " x 1 = " + (numero * 12));
+            System.out.println(numero + " x 2 = " + (numero * 2));
+            System.out.println(numero + " x 3 = " + (numero * 3));
+            System.out.println(numero + " x 4 = " + (numero * 4));
+            System.out.println(numero + " x 5 = " + (numero * 5));
+            System.out.println(numero + " x 6 = " + (numero * 6));
+            System.out.println(numero + " x 7 = " + (numero * 7));
+            System.out.println(numero + " x 8 = " + (numero * 8));
+            System.out.println(numero + " x 9 = " + (numero * 9));
+            System.out.println(numero + " x 10 = " + (numero * 10));
+            System.out.println(numero + " x 11 = " + (numero * 11));
+            System.out.println(numero + " x 12 = " + (numero * 12));
         }
         else
             System.out.println("El numero tiene q estar entre 2 y 6");
@@ -39,17 +39,16 @@ public class Ejercicio03 {
  * run:
 Ingrese la tabla de multiplicar que desea entre 2 y 6:5
 5 x 1 = 5
-5 x 1 = 10
-5 x 1 = 15
-5 x 1 = 20
-5 x 1 = 25
-5 x 1 = 30
-5 x 1 = 35
-5 x 1 = 40
-5 x 1 = 45
-5 x 1 = 50
-5 x 1 = 55
-5 x 1 = 60
-BUILD SUCCESSFUL (total time: 3 seconds)
-
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+5 x 11 = 55
+5 x 12 = 60
+BUILD SUCCESSFUL (total time: 2 seconds)
  */

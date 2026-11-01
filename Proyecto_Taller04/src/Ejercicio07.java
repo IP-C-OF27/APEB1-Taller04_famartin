@@ -43,8 +43,6 @@ Ingrese el numero de kilovatios consumidos en el mes:
 90
 Ingrese su edad:
 80
-El total a pagar con descuento es: 12.15
-BUILD SUCCESSFUL (total time: 5 seconds)
-
-
+El total a pagar con descuento del 10% es: 12.15
+BUILD SUCCESSFUL (total time: 6 seconds)
  */
