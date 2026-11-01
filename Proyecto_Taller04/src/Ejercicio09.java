@@ -26,7 +26,7 @@ public class Ejercicio09 {
         if (asistencia >= 70) {
             if (examen >= 7 && total >= 7) {
                 System.out.println("Aprobado");
-            } else if (total >= 7) {
+            } else if (total >= 6) {
                 System.out.println("Supletorio");
             } else {
                 System.out.println("Reprobado");
@@ -34,7 +34,7 @@ public class Ejercicio09 {
         } else {
             System.out.println("Reprobado por falta de asistencia");
         }
-        System.out.print("Su nota final es: "+ total);
+        System.out.printf("Su nota final es: %.1f%n", total);
     }
 }
 

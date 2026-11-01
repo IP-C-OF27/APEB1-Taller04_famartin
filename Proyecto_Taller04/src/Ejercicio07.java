@@ -22,7 +22,7 @@ public class Ejercicio07 {
         kv_consumido = tcl.nextDouble();
         System.out.println("Ingrese su edad:");
         edad = tcl.nextInt();
-        if (edad >= 65){
+        if (edad > 65){
             total= kv_precio * kv_consumido;
             total= total -(total * descuento);
             System.out.println("El total a pagar con descuento del 10% es: "+total);}

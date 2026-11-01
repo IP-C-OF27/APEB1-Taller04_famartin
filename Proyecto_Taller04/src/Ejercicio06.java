@@ -24,4 +24,12 @@ public class Ejercicio06 {
 /***
  * EVIDENCIA DEL RUN:
  * Pegue aquí la evidencia de la ejecución del .java
+ * run:
+Ingrese el monto del prestamo: 
+1200
+Ingrese el interes mensual del prestamo: 
+5
+El pago mensual es: 160.0
+BUILD SUCCESSFUL (total time: 5 seconds)
+
  */
